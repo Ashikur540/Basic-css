@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+</head>
+<style type="text/css">
+    .b1 {
+        height: 150px;
+        width: 300px;
+        background-color: green;
+        position: relative;
+        /* effects insiders elements in this div
+        /* top: 0;
+        left: 0; */
+    }
+    
+    .inside_red {
+        height: 60px;
+        width: 60px;
+        background-color: brown;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        position: absolute;
+        margin: auto;
+        border-radius: 50%;
+    }
+    
+    .b2 {
+        height: 200px;
+        width: 300px;
+        background-color: rgb(165, 21, 11);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .b3 {
+        height: 110px;
+        width: 300px;
+        background-color: rgb(24, 162, 204);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .b4 {
+        height: 100px;
+        width: 300px;
+        background-color: rgb(53, 7, 97);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .b5 {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        right: 0%;
+        left: 0%;
+        margin: auto;
+        background-color: rgb(20, 202, 147);
+    }
+    
+    .bm1 {
+        height: 50px;
+        width: 50px;
+        background-color: hotpink;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        margin: auto;
+    }
+    
+    .bm2 {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(240, 51, 145);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div class="b1">relative
+        <div class="inside_red"></div>
+    </div>
+    <br>
+    <div class="b2"></div>
+    <br>
+    <div class="b3"></div>
+    <br>
+    <div class="b4"></div>
+    <br>
+    <div class="b5"></div>
+    <div class="bm1"></div>
+    <div class="bm2"></div>
+</body>
+
+</html>

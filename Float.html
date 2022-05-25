@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float usage</title>
+    <style type="text/css">
+        .img1 {
+            height: 150px;
+            width: 300px;
+            background-repeat: no-repeat;
+            float: left;
+            /* float: right; --2*/
+        }
+        
+        .p1 {
+            /* as the paragraph was going to left so clear property is used to clear left float*/
+            clear: left;
+        }
+        /* <!-- type2 --> */
+        
+        .img2 {
+            height: 150px;
+            width: 300px;
+            background-repeat: no-repeat;
+            float: right;
+            /* float: right; --2*/
+        }
+        
+        .p2 {
+            /* as the paragraph was going to left so clear property is used to clear right float*/
+            clear: right;
+        }
+        /* <!-- type3 --> */
+        
+        .imgleft {
+            height: 150px;
+            width: 300px;
+            background-repeat: no-repeat;
+            float: left;
+            /* float: right; --2*/
+        }
+        
+        .imgright {
+            height: 150px;
+            width: 300px;
+            background-repeat: no-repeat;
+            float: right;
+            /* float: right; --2*/
+        }
+        
+        .p3 {
+            /* comment this and see difference */
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img class="img1" src="learn2.jpg">
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus modi sequi illum quaerat, suscipit cum nam pariatur magni dolore velit iure itaque, fugit quasi, maiores quia earum accusantium adipisci ad eum aspernatur ducimus reprehenderit
+        molestias! Voluptatem enim in commodi itaque accusantium eaque hic vero mollitia iusto, amet optio. Maiores, tempore? Ipsa ipsam tempora expedita, voluptate at voluptatum beatae in, quod harum cumque magni iure est velit similique. Labore consectetur
+        facere optio amet quasi accusamus libero officiis fuga, sequi ea. Labore saepe beatae incidunt esse provident. Dolore fugit at consectetur assumenda ex inventore eius modi, recusandae, temporibus dicta nihil quo.</p>
+    <br>
+    <hr>
+    <!-- /* another pic and para section */ -->
+    <img class="img2" src="learn.jpg">
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus modi sequi illum quaerat, suscipit cum nam pariatur magni dolore velit iure itaque, fugit quasi, maiores quia earum accusantium adipisci ad eum aspernatur ducimus reprehenderit
+        molestias! Voluptatem enim in commodi itaque accusantium eaque hic vero mollitia iusto, amet optio. Maiores, tempore? Ipsa ipsam tempora expedita, voluptate at voluptatum beatae in, quod harum cumque magni iure est velit similique. Labore consectetur
+        facere optio amet quasi accusamus libero officiis fuga, sequi ea. Labore saepe beatae incidunt esse provident. Dolore fugit at consectetur assumenda ex inventore eius modi, recusandae, temporibus dicta nihil quo.</p><br>
+    <hr>
+    <img class="imgleft" src="learn.jpg">
+    <img class="imgright" src="learn2.jpg">
+    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus modi sequi illum quaerat, suscipit cum nam pariatur magni dolore velit iure itaque, fugit quasi, maiores quia earum accusantium adipisci ad eum aspernatur ducimus reprehenderit
+        molestias! Voluptatem enim in commodi itaque accusantium eaque hic vero mollitia iusto, amet optio. Maiores, tempore? Ipsa ipsam tempora expedita, voluptate at voluptatum beatae in, quod harum cumque magni iure est velit similique. Labore consectetur
+        facere optio amet quasi accusamus libero officiis fuga, sequi ea. Labore saepe beatae incidunt esse provident. Dolore fugit at consectetur assumenda ex inventore eius modi, recusandae, temporibus dicta nihil quo.</p><br>
+</body>
+
+</html>
